@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Portfolio</title>
+    <title>Lawrence Wallace</title>
 </head>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
     <a class="navbar-brand" href="index.html">Lawrence Wallace</a>
     <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="portfolio.html">My Portfolio</a>
         </li>
@@ -21,57 +24,70 @@
         </li>
     </ul>
 </nav>
+</nav>
 
-<body>
-    <div class="container-fluid">
-        <div class="row"></div>
-        <div class="col-lg-8 col-sm-12">
-            <h2 class="pPort">Music</h2>
-            <p class="pPort">Lawrence composes music for both secular and religious purposes. Below are some examples of
-                his work.</p>
-        </div>
+<body class="section">
+    <div class="card bg-light mb-3 col-lg-6 col-sm-12">
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paradise_Lost_12.jpg" class="img-fluid imgPort"
-                    alt="">
-                <div class="col-lg-6 col-sm-12">
-                    <h3>My wings</h3>
-                    <p>is part of Lawrence's play <i>Paradise Lost</i> that tells the story of the John Milton's
-                        eponymous epic poem. </p>
-                </div>
-                <audio controls>
-                    <source src="Assets\Audio\myWingsTryAgain.mp3" type="audio/mp3">
+            <div class="card-header col-lg-6 col-sm-12 border"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paradise_Lost_12.jpg" class="img-fluid"
+                    alt=""></div>
+            <div class="card-body col-6 border">
+                <h5 class="card-title">My wings</h5>
+                <p class="card-text">is part of Lawrence's play <i>Paradise Lost</i> that tells the story of the John Milton's
+                    eponymous epic poem. The play follows four characters, Lucifer (the Devil), Michael (The Archangel),
+                    Adam (the first man), and Eve (the First Woman). The play takes a different approach from the biblical
+                    narrative, casting Lucifer as more of a heroic figure, and everyone making good faith decisions. 
+                    Each of the characters are driven by the weaknesses inherited after their creation, and ultimately 
+                    they each make sacrifices to achieve their various goals. In this particular song, Lucifer sings about 
+                    his decision to leave heaven, and how he can still be righteous, even without the approval of God. The song 
+                    takes place on Earth, and it is the Act I finale.</p>
+            </div>
+            <div class="card-body col-12 border">
+                <p class="card-text"><audio controls>
+                        <source src="Assets\Audio\myWingsTryAgain.mp3" type="audio/mp3">
+                    </audio></p>
+            </div>
+        </div>
+    </div>
+    <div class="card bg-light mb-3 col-lg-6 col-sm-12">
+        <div class="row">
+            <div class="card-header col-6 border">                
+                <img src="https://www.publicdomainpictures.net/pictures/10000/velka/87-1265714823z0Ht.jpg"
+                class="img-fluid" alt=""></div>
+            <div class="card-body col-lg-6 col-sm-12 border">
+                <h5 class="card-title">Gloria</h5>
+                <p class="card-text">is one of the very many pieces Lawrence has composed and performed in his role as the music
+                    director for Saint'Luke catholic church in Lakewood, Ohio. This piece is a clip of the Gloria from his <i>Mass for the Sick</i>,
+                    which he composed in memory of the victims of Coronavirus in the parish. 
+                </p>
+            </div>
+            <div class="card-body col-12 border">
+                <p class="card-text"><audio controls>
+                    <source src="Assets\Audio\Gloria idea 2 (4).mp3" type="audio/mp3">
                 </audio>
             </div>
         </div>
+    </div>
+    <div class="card bg-light mb-3 col-lg-6 col-sm-12">
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
-                <img src="https://www.publicdomainpictures.net/pictures/10000/velka/87-1265714823z0Ht.jpg"
-                    class="img-fluid" alt="">
-                    <audio controls>
-                        <source src="Assets\Audio\Gloria idea 2 (4).mp3" type="audio/mp3">
-                    </audio>
-                </div>
-
+            <div class="card-header col-6 border">                
+                <img src="Assets\Images\BiliKribbsArt.JPG" class="img-fluid" alt="">
+            </div>
+            <div class="card-body col-lg-6 col-sm-12 border">
+                <h5 class="card-title">Extravaganza of Strange</h5>
+                <p class="card-text">is the title of an art show devised by Bili Kribbs, a very talented artist in the Cleveland 
+                    area. He asked Lawrence to create an ambient, looping soundtrack to serve as background music for the show.
+                    The mood evoked by the show was to be earthy and a little alien, to show off the toys, paintings, and other 
+                    media bili created for the event.
+                </p>
+            </div>
+            <div class="card-body col-12 border">
+                <p class="card-text"><audio controls>
+                    <source src="Assets\Audio\Bili ambient 1.mp3" type="audio/mp3">
+                </audio>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 col-sm-12">
-            <img src="" alt="">
-        </div>
-
-
-    </div>
-    <div class="row">
-        <div class="col-lg-6 col-sm-12">
-            <img src="Assets\Images\BiliKribbsArt.JPG" class="img-fluid" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 col-sm-12">
-            <img src="" alt="">
-        </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -83,6 +99,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
+    </div>
 </body>
 
 </html>

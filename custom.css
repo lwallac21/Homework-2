@@ -1,3 +1,16 @@
+.section{
+    margin: 0 auto;
+    background-color:lavender;
+}
+.center {
+    text-align:center;
+}
+.divback {
+    background-color: white;
+}
+.card {
+    margin:auto;
+}
 audio { 
     height: 40px;
     width: 100%; 
@@ -11,6 +24,6 @@ audio:hover {
     height:50px;
 }
 
-.pPort {
-    text-align: center;
+.nav-item:hover {
+    transform:scale(1.05)
 }
