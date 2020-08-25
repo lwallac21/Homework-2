@@ -1,0 +1,16 @@
+audio { 
+    height: 40px;
+    width: 100%; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.8);
+    border-radius: 90px;
+    transition-property: height;
+    transition-duration: .3s;
+    transition-timing-function: linear; 
+      }
+audio:hover {
+    height:50px;
+}
+
+.pPort {
+    text-align: center;
+}
