@@ -1,12 +1,10 @@
-.section{
-    margin: 0 auto;
-    background-color:lavender;
+
+.pexels {
+    background: url(Assets\Images\landscape.jpg);
+    min-height: 20vh;
 }
 .center {
     text-align:center;
-}
-.divback {
-    background-color: white;
 }
 .card {
     margin:auto;
@@ -27,9 +25,7 @@ audio:hover {
 .nav-item:hover {
     transform:scale(1.05)
 }
-footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
+
+.layout-social .layout-icon {
+    font-size: 3em;
 }
