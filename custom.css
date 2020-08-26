@@ -1,7 +1,13 @@
 
-.pexels {
-    background: url(Assets\Images\landscape.jpg);
-    min-height: 20vh;
+body {
+    font-family: 'Cabin', sans-serif;
+}
+h3 {
+    margin: left 15px right 15px
+}
+.jumbotron {
+    background: url(Assets/Images/landscape.jpg);
+    background-position: bottom;
 }
 .center {
     text-align:center;
