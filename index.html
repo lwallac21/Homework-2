@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="Assets\fontawesome-free-5.14.0-web\css\fontawesome.min.css">
     <link rel="stylesheet" href="custom.css">
     <title>Lawrence Wallace</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
-<header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<header class="lbwMain">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="index.html">Lawrence Wallace</a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">About Me</a>
+                <a class="nav-link bg-secondary" href="index.html">About Me</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">My Portfolio</a>
@@ -26,41 +28,41 @@
             </li>
         </ul>
     </nav>
-    <section class="jumbotron">
-        <div class="text-light d-flex justify-content-center">
-            <h1>
-                Lawrence Wallace
-            </h1>
-        </div>
+    <section class=" text-light text-center d-flex align-items-center">
+        <div class="container">
+            <h1>Lawrence Wallace</h1>
+            <p>Musician, Dad, and Coding Beginner,</p>
         </div>
     </section>
 </header>
 
 <body>
-    <article class="margin container-fluid">
-        <div class="margin row">
-        <h3 class="margin"> About Lawrence</h3>
-        </div>
-        <div class=container>
-            <div class="row"></div>
-        <div class="margin bg-light mb-3 col-lg-6 col-md-10 col-sm-12">
-            
-        <p class="margin">Lawrence is a musician and aspiring coder, with a deep and abiding interest in medieval
-            history, literature, video games and food. Lawrence has done Opera for the Mozartfest in
-            Salzburg, Austria, and he has directed music for many plays, including <i>Shrek</i> with
-            Near West Theatre, <i>Batboy</i> with Blank Canvas Theatre, and <i>13!</i> with
-            Beachwood
-            Community Theatre. He was born in 1986 and is the oldest of four
-            children. He lives with his wife Julia and his two children (<i>another one on the
-            way!</i>) Ben and Evie.</p>
-            </div>
-            </div>
-        </div>
-            </article>
+    <div class="container">
+        <article class="row single-post mt-5 no-gutters">
+            <div class="col-md-6 col-sm-12">
+                <div class="image-wrapper float-left pr-3">
+                    <img src="Assets/Images/LawrenceImage.jpg" class="imgLawrence" alt="Lawrence Wallace Image">
+                </div>
+                <div class="single-post-content-wrapper p-3">
+                    <h5>Lawrence Wallace</h5>
+            <p>Lawrence is a musician and aspiring coder, with a deep and abiding interest in medieval
+                history, literature, video games and food. Lawrence has done Opera for the Mozartfest in
+                Salzburg, Austria, and he has directed music for many plays, including <i>Shrek</i> with
+                Near West Theatre, <i>Batboy</i> with Blank Canvas Theatre, and <i>13!</i> with
+                Beachwood Community Theatre. He was born in 1986 and is the oldest of four
+                children. He lives with his wife Julia and his two children (<i>another one on the
+                    way!</i>) Ben and Evie.</p>
+                </div>
+        </article>
+    </div>
+  
     <footer class="site-footer bg-secondary footer-dark d-flex justify-content-center sticky-bottom">
         <section class="layout-social">
             <a class="text-light" href="https://www.linkedin.com/in/lawrence-wallace-94269414/" target="_blank">
-                <i class="fab fa-linkedin layout-icon mt-2"></i>
+                <i class="fab fa-linkedin layout-icon mt-2 mx-4"></i>
+            </a>
+            <a class="text-light" href="https://github.com/lwallac21?tab=repositories" target="_blank">
+                <i class="fab fa-github layout-icon mt-2"></i>
             </a>
         </section>
     </footer>
