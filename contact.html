@@ -9,7 +9,7 @@
 
     <title>Contact me</title>
 </head>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<nav class="navbar bg-dark navbar-expand-sm navbar-dark sticky-top">
     <a class="navbar-brand" href="index.html">Lawrence Wallace</a>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -19,16 +19,43 @@
             <a class="nav-link" href="portfolio.html">My Portfolio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link bg-secondary" href="contact.html">Contact Me</a>
+            <a class="nav-link bg-secondary text-light" href="contact.html">Contact Me</a>
         </li>
     </ul>
 </nav>
 
-<body>
-    
 
-    <footer class="navbar bg-dark navbar-dark sticky-bottom">
+<body>
+    <div class="container-sm bg-secondary">
+        <div class="row">
+            <form class="col-sm-8">
+                <legend>Contact Me</legend>
+                <fieldset class="form-group">
+                    <label for="yourName">Your name:</label>
+                    <input class="form-control" type="text">
+
+                    <label for="yourEmail">Your Email:</label>
+                    <input class="form-control" type="text">
+
+                    <label for="yourMessage">Your Message:</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+    <footer class="site-footer bg-dark footer-dark d-flex justify-content-center sticky-bottom">
+        <section class="layout-social">
+            <a class="text-light" href="https://www.linkedin.com/in/lawrence-wallace-94269414/" target="_blank">
+                <i class="fab fa-linkedin layout-icon mt-2 mx-4"></i>
+            </a>
+            <a class="text-light" href="https://github.com/lwallac21?tab=repositories" target="_blank">
+                <i class="fab fa-github layout-icon mt-2"></i>
+            </a>
+        </section>
+        
     </footer>
+    <script src="https://kit.fontawesome.com/23790d919d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -39,6 +66,6 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    </body>
+
 
 </html>
