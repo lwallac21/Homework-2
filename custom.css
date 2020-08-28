@@ -15,17 +15,15 @@ body {
     max-height: 16rem;
     overflow: hidden;
 }
-@media only screen and (max-width: 400px) {
-    .container-fluid .container {
-      max-width: 100%;
+.card {
+    margin-top: 2rem;
+}
+@media only screen and (min-width: 400){
+    .card {
+        height: auto;
     }
 }
-.center {
-    text-align:center;
-}
-.card {
-    margin:auto;
-}
+
 audio { 
     max-height: 40px;
     max-width: 100%;
