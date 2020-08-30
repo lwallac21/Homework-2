@@ -11,6 +11,12 @@
     font-family: 'Cabin', sans-serif;
     background-color: lemonchiffon;
 }
+.flex-wrap {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+  }
 
 .lbwMain{
     background: url(Assets/Images/landscape.jpg);
